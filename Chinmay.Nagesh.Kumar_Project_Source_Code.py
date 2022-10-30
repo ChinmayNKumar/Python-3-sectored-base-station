@@ -2,7 +2,7 @@ import numpy as np
 import numpy.random as npr
 import math
 
-#Project submitted by Chinmay Nagesh Kumar as part of course requirements for ENTS 656
+#Project submitted by Chinmay Nagesh Kumar
 
 #Default parameters (length of road: 6 km, no. of users: 160, HOm = 3dB)
 
@@ -123,7 +123,7 @@ fobj.close()
 
 antenna_dict = {} #Dict will contain antenna angles and their corresponding losses
 
-#The following loop creates a dictionary containing antenna agles and their corresponding losses. This is being done outside the function to reduce execution time
+#The following loop creates a dictionary containing antenna angles and their corresponding losses. This is being done outside the function to reduce execution time
 
 for j in range(360):
 
